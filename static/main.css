@@ -1,0 +1,81 @@
+body {
+    background: #833ab4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #833ab4, #fd1d1d, #fcb045);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+fieldset {
+    background-color: #eeeeee;
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+}
+
+input {
+    margin: 5%;
+}
+
+#login_panel {
+    display: flex;
+    width: 35%;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -20%;
+    padding: 10% 5% 10% 5%;
+    background-color: #eeeeee;
+    border: 1px solid black;
+    font-family: Consolas, monaco, monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input#username {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #3CBC8D;
+    color: rgb(88, 88, 88);
+    border: 1px solid #ccc;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input#password {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #3CBC8D;
+    color: rgb(88, 88, 88);
+    border: 1px solid #ccc;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}

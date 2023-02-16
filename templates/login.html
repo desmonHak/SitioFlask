@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Inicio de sesión</title>
+    <link rel = "stylesheet" href = "{{ url_for('static', filename='main.css') }}" type="text/css">
+</head>
+
+<body>
+
+    <legend>Login:</legend>
+
+    <div id="login_panel">
+        <form id="create_count" method="get" action="/create_count"></form>
+        <form method="POST" action="/login">
+            
+            <label for="username">Usuario:</label>
+            <input type="text" name="username" id="username">
+
+            <label for="password">Contraseña:</label>
+            <input type="password" name="password" id="password">
+
+            <input type="submit" value="Iniciar sesión" formmethod="post">
+            <input type="submit" value="Crear cuenta" form="create_count">
+        </form>
+    </div>
+   
+</body>
+
+
+</html>

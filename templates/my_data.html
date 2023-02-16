@@ -1,0 +1,30 @@
+{% extends "layout.html" %} {% block content %}
+
+<div class="jumbotron">
+    <h1 class="display-4">Usuario {{ username }}</h1>
+    <hr class="my-4">
+    <!--<a class="btn btn-primary btn-lg" href="/gato" role="button">pulsame</a>-->
+
+    <div class="jumbotron text-center">
+        <h3>Datos de su usuario:</h3>
+    </div>
+    <hr class="my-4">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Password</h3>
+                <p>{{ password }}</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Nombre de usuario</h3>
+                <p>{{ username }}</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Fecha de creacion</h3>
+                <p>{{ date_time}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

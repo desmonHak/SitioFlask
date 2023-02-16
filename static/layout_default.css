@@ -1,0 +1,9 @@
+body {
+    font-family: Consolas, monaco, monospace;
+    background-color: gray;
+    color: white;
+}
+
+img {
+    border-radius: 8px;
+}
